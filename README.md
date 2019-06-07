@@ -1,2 +1,2 @@
-# lunexos-skeleton-
+# lunexos.js
 JS Framework
