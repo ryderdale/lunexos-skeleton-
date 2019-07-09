@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <title></title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/desktop/desktop.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/tablet/tablet.css" />
+      <link rel="stylesheet" type="text/css" media="screen" href="styles/mobile/mobile.css" />
+  </head>
+  <body>
+    <div id="page-1-container" hidden>
+      <h1>Page 1</h1>
+      <button id="page-2-button-from-page-1">button to go to page 2</button>
+    </div>
+    <div id="page-2-container" hidden>
+        <h1>Page 2</h1>
+        <button id="page-2-button-from-page-1">button to go to page 2</button>
+
+    </div>
+    <div id="page-3-container" hidden>
+        <!-- This container uses html_templates.js.  -->
+    </div>
+
+    <script src="js-framework/html_templates.js"></script>
+    <script src="js-framework/globalObj.js"></script>
+    <script src="js-framework/validations.js"></script>
+    <script src="js-framework/build_functions.js"></script>
+    <script src="js-framework/state_functions/state_functions.js"></script>
+    <script src="js-framework/event_listeners/event_listeners.js"></script>
+    <script src="js-framework/router.js"></script>
+  </body>
+</html>
+
+

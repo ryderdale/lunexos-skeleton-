@@ -1,0 +1,6 @@
+[hidden] { display: none !important; }
+@media only screen and (min-width:992px) {
+    .nav-item{
+        margin-left:20%
+    }
+}

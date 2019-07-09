@@ -1,0 +1,4 @@
+var globalObj = {
+    loggedIn: false 
+};
+
